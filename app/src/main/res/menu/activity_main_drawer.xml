@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="اضافة تبرع" />
+        <item
+            android:id="@+id/nav_My_alams"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="صدقاتي" />
+
+        <item
+            android:id="@+id/nav_AidReguest"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="تقديم طلب معونة" />
+
+    </group>
+</menu>
